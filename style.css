@@ -231,7 +231,7 @@ section .main .button:hover i{
     align-items: center;
     justify-content: center;
 }
-
+/* 
 .products .box .card .image img{
     width: 150px;
     margin: 15px 0;
@@ -802,4 +802,4 @@ footer .footer_main .tag .search_bar button{
     border-radius: 25px;
     color: white;
     cursor: pointer;
-}
+} */
