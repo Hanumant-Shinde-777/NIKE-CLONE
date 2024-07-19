@@ -192,7 +192,6 @@ section .main .button:hover i{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;    
 }
-
 .products .box{
     width: 90%;
     margin: 0 auto;
@@ -209,7 +208,7 @@ section .main .button:hover i{
     text-align: center;
     padding: 10px 20px;
     background: #f6f6f6;
-}
+} 
 
 .products .box .card .small_card{
     display: flex;

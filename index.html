@@ -86,9 +86,9 @@
             <i class="fa-solid fa-heart"></i>
             <i class="fa-solid fa-share"></i>
           </div>
-
+<!-- adding container -->
           <!-- main shoes image -->
-           <div class="image">
+          <div class="image">
             <img src="image/shoes1.png" />
            </div>
 
@@ -148,7 +148,6 @@
                       <!-- shoes 3 -->
 
 
-
                       <div class="card">
 
                         <div class="small_card">
@@ -180,7 +179,6 @@
                                 </div>
                                 <a href="#" class="btn">Add To Cart</a>
                             </div>
-
 
 
                             <!-- shoes 4 -->
@@ -318,46 +316,47 @@
                                                         <a href="#" class="btn">Add To Cart</a>
                                                     </div>
 
-                                                    <!-- shoes 8 -->
-
-                                                    <div class="card">
-
-                                                      <div class="small_card">
-                                                        <i class="fa-solid fa-heart"></i>
-                                                        <i class="fa-solid fa-share"></i>
-                                                      </div>
-                                            
-                                                      <!-- main shoes image -->
-                                                       <div class="image">
-                                                        <img src="image/shoes8.png" />
-                                                       </div>
-                                            
-                                                          <div class="product_text">
-                                                              <h2>NIKE</h2>
-                                                              <p>
-                                            
-                                                        Nike, Inc. is an American athletic footwear and apparel corporation
-                                                        headquartered near Beaverton, Oregon, United States. 
-                                            
-                                                              </p>
-                                                              <h3>$105.99</h3>
-                                                              <div class="products_star">
-                                                              <i class="fa-solid fa-star"></i>
-                                                              <i class="fa-solid fa-star"></i>
-                                                              <i class="fa-solid fa-star"></i>
-                                                              <i class="fa-regular fa-star"></i>
-                                                              <i class="fa-solid fa-star-half-stroke"></i>
-                                            
-                                                              </div>
-                                                              <a href="#" class="btn">Add To Cart</a>
-                                                          </div>
-
+                                                   
           </div>
+
+
         </div>
       </div>
      </div>
 
-  
+  <!-- About -->
+   <div class="about" id="About">
+
+    <h1>Web<span>About</span></h1>
+    <div class="about_main">
+      <div class="about_image">
+        <div class="abou_small_image">
+          <img src="image/red_shoes1.png" onclick = "functio(this)">
+          <img src="image/red_shoes2.png" onclick = "functio(this)">
+          <img src="image/red_shoes3.png" onclick = "functio(this)">
+          <img src="image/red_shoes4.png" onclick = "functio(this)">
+        </div>
+
+        <div class="image_contaner">
+          <img src="image/red_shoes1.png" id="imagebox">
+        </div>
+      </div>
+
+      <div class="about_text">
+        <p>
+          it employed 83,700 people worldwide.[11] In 2020, the brand alone was valued in excess of $32 billion, 
+          making it the most valuable brand among sports businesses
+        </p>
+      </div>
+    </div>
+    <a href="#" class="about_btn"> Shop Now</a>
+    <script>
+      function functio(small){
+        var full = document.getElementById("imagebox")
+        full.src = small.src
+      }
+    </script>
+   </div>
   </body>
 </html>
 
