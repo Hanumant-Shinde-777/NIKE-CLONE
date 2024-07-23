@@ -192,18 +192,28 @@ section .main .button:hover i{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;    
 } 
-.products .box{
+
+
+
+
+
+.products .box {
     width: 90%;
     margin: 0 auto;
-    display: grid;
+    display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 25px 0;
 }
 
-.products .box .card{
+/* grid compaire */
+
+
+
+
+.products .box .card {
     width: 290px;
     height: 440px;
-    box-shadow: 0 0 8px #6c14d0;                      
+    box-shadow: 0 0 8px #6c14d0;
     border-radius: 5px;
     text-align: center;
     padding: 10px 20px;
